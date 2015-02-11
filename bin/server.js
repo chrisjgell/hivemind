@@ -1,3 +1,3 @@
-var ircd = require('../lib/ircd');
+var IRCd = require('../lib/ircd');
 
-ircd.start();
+new IRCd().start();
